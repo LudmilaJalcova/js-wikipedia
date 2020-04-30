@@ -1,0 +1,16 @@
+vytvor si repositar na githube s nazvom js-wikipedia
+vyklonuj ho do priečinku projects v tvojom PC
+vytvor si priecinok docs v tomto priecinku vytvor html podla dizajnu
+a tiez js pomocou ktoreho budes stahovat data a zobrazovat podla dizajnu
+pouzi bootstrap
+
+requet url pre searching state použí promise spolu s fetch await async try catch
+const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&list=search&srsearch=${search}`;
+vrati ti pole objektov s datami data.query.results
+
+
+vramci read more bude v linke href=`http://en.wikipedia.org/?curid=${idLink}`
+priklad aj s idLink takto https://en.wikipedia.org/?curid=63204759
+
+nezabudni domaca.txt a images premiesnit do vnutra vyklonovaneho repositara nie do docs priecinka
+
